@@ -1,0 +1,128 @@
+body { 
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */ 
+} 
+
+.parrent-class{
+    min-height: 800px;
+    display: flex;
+    gap: 2px;
+    
+   
+    
+    
+
+}
+
+.left-div{
+    min-height: 800px;  
+   
+    background-color: #1E201E;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 2px 3px 4px #697565;
+    
+    
+}
+
+
+.top{
+    min-height: 800px;
+    max-width: 1300px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+    box-shadow: 1px 2px 3px 4px #697565;
+    
+   
+    
+}
+
+
+.top-div{
+    min-height: 200px;
+ 
+   
+    background-color: #1E201E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 2px 3px 4px #697565;
+   
+    
+    
+}
+.middle-deck{
+
+    min-height: 300px;
+    
+    display: flex;
+    gap: 10px;
+    box-shadow: 1px 2px 3px 4px #697565;
+    
+    
+    
+}
+.middle{
+    
+    width: 30vw;
+    
+    background-color: #1E201E;
+    gap: 5px;
+    
+    
+    
+}
+.middle1{
+    
+    min-height: 600px;
+    width: 48vw;
+
+    
+    background-color: #1E201E;
+    align-content: left;
+    text-align:left;
+    display: inline-flexbox;   
+    flex-wrap: 1;
+    border-radius: 25px; 
+    box-shadow: 1px 2px 3px 4px #697565;
+    
+   
+    
+    
+}
+.middle2{
+    
+    width: 32vw;
+   
+    background-color:#1E201E;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 2px 3px 4px #697565;
+    
+   
+    
+    
+}
+
+.right-div{
+    min-height: 800px;
+    min-width: 10vw;
+   
+    background-color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+   
+}

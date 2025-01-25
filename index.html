@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <h1>Book Borrowing Management</h1>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="id.PNG" height=auto width=auto ;>
+
+    <div class = "main div">
+
+  
+    <div class = "parrent-class" >
+        <div class = "left-div">
+            <h1 style="color: #ECDFCC; ">left</h1> 
+        </div>
+          
+           <div class = "top">
+                <div class = "top-div">
+                   <h1 style="color: #ECDFCC; ">series</h1>
+                </div>
+                <div class = "top-div">
+                   <h1 style="color: #ECDFCC; ">Anime</h1>
+                </div>
+
+
+                <div class = "middle-deck">
+           
+                    <div class = "middle">
+                        <img src="Book1.jpg" alt=""height="100%" width="100%">
+                       
+                    </div>
+                    <div class = "middle">
+                        <img src="Book2.jpg" alt=""height="100%" width="100%">
+                    </div>
+                    <div class = "middle">
+                        <img src="Book3.jpg" alt=""height="100%" width="100%">
+                    </div>
+                </div>
+
+
+                <div class = "top-div">
+                    <h1 style="color: #ECDFCC; ">Movie</h1>
+                </div>
+
+
+                <div class = "middle-deck">
+           
+                    <div class = "middle1">
+                       
+                        <h3 style="color: #ECDFCC; text-align: center;" >Borrow Form</h3>
+                        <br>
+                        <br>
+                        
+                        <form action = "process1.php" method = "post">
+
+
+                            <label for = "Stdnm"   style="color: #ECDFCC; font-size: 20px ;padding: 40px;" >Student Name :  </label>
+                            <input type="text" size="30" name="st" id="Stdnm" placeholder="Student name" style="text-align: center; font-size: 20px;">
+
+                            <br>
+                            <br>
+                            <br>
+                            
+
+                            <label for = "Stdid" style="color: #ECDFCC; font-size: 20px; padding: 60px;">Student ID:  </label>
+                            <input type="text" name="stid" id="Stid" placeholder="Student id" style="text-align: center; font-size: 20px">
+
+                            <br>
+                            <br>
+                            <br>
+
+                            <label for = "books" style="color: #ECDFCC; font-size: 20px; padding: 51px;">Select Book :  </label>
+
+                            <select name="books" id="book" style="font-size:20px;" >
+                                <option value="The Catcher In The Rye">The Catcher In The Rye </option>
+                                <option value="Great Expectations">Great Expectations</option>
+                                <option value="The Alchemist">The Alchemist</option>
+                                <option value="The Great Gatsby">The Great Gatsby</option>
+                                <option value="Hamlet">Hamlet</option>
+                                
+                            </select>
+
+
+                                <br>
+                                <br>
+                                <br>
+
+                                <label for = "borrowdate" style="color: #ECDFCC; font-size: 20px; padding: 49px;">Borrow Date :  </label>
+                                
+                                <input type="date" id="borrowdate" name="borrowdate" style="font-size: 20px;  ">
+
+
+                                
+
+                                <label for = "tokenid" style="color: #ECDFCC; font-size: 20px; padding:20px ">Token :  </label>
+                                
+                                <input type="Text" name="tokenid" id="tokenid" placeholder="token"    style="font-size:20px;  ;" size="3" >
+
+                                <br>
+                                <br>
+                                <br>
+
+
+                                <label for = "returndate" style="color: #ECDFCC; font-size: 20px; padding: 50px;">Return Date :  </label>
+                                
+                                <input type="date" id="returndate" name="returndate" style="font-size: 20px;  ">
+
+                                <br>
+                                <br>
+                                <br>
+                               
+
+                                <label for="fees" style="color: #ECDFCC; font-size: 20px; padding: 50px;" >Total Fees:</label>
+
+                                <label for="fees" id="fee" name="fees" style="color: #ECDFCC; font-size: 20px; padding: 50px;" >$5,000,000</label>
+
+                                <br>
+                                <br>
+                                <br>
+
+
+                                <span style="display: inline-block; width: 300px;"></span> 
+
+                                <input type="submit" style="font-size:25px; border-radius:10px ; " value="Submit">
+
+                                <span style="display: inline-block; width: 20px;"></span> 
+
+                                <input type="button" style="font-size:25px; border-radius:10px" value="Cancel">
+
+
+
+                                
+
+                           
+
+
+                        </form>
+
+
+                    </div>
+                    <div class = "middle2">
+                        <h1 style="color: #ECDFCC; ">picture</h1>
+                    </div>
+                    
+                </div>
+               
+                
+
+            </div> 
+
+            <div class = "left-div">
+                <h1 style="color: #ECDFCC; ">left</h1> 
+            </div>
+
+        
+               
+         
+
+
+
+    </div>
+
+   </div>
+
+
+
+</body>
+</html>
